@@ -1,0 +1,87 @@
+:root {
+    --primary-1: #EF8354;
+    --primary-2: #4F5D75;
+    --primary-3: #BFC0C0;
+    --secondary-1: #2D3142;
+    --secondary-2: #8B9EB7;
+    --secondary-3: #DEE5E5;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-sm {
+    background-color: var(--primary-1);
+    color: var(--white);
+    border-color: var(--primary-1);
+}
+
+.btn-sm:hover {
+    background-color: var(--primary-3);
+    border-color: var(--primary-3);
+    color: var(--white);
+    filter: drop-shadow(2px 2px 3px #000000);
+}
+
+.btn-primary {
+    background-color: var(--primary-1);
+    border-color: var(--primary-1);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-3);
+    border-color: var(--primary-3);
+    color: var(--white);
+    filter: drop-shadow(2px 2px 3px #000000);
+}
+
+.btn-lg {
+    background-color: var(--primary-1);
+    border-color: var(--primary-1);
+    color: var(--white);
+}
+
+.btn-lg:hover {
+    background-color: var(--primary-3);
+    border-color: var(--primary-3);
+    color: var(--white);
+    filter: drop-shadow(2px 2px 3px #000000);
+}
+
+
+.container.text-center {
+    text-align: center;
+}
+
+
+.color-rectangle {
+    height: 200px;
+    width: 200px;
+    margin: 10px 0;
+}
+
+.color-rectangle.primary-color {
+    background-color: var(--primary-1);
+}
+
+.color-rectangle.primary-shade-1 {
+    background-color: var(--primary-2);
+}
+
+.color-rectangle.primary-shade-2 {
+    background-color: var(--primary-3);
+}
+
+.color-rectangle.secondary-color {
+    background-color: var(--secondary-1);
+}
+
+.color-rectangle.secondary-shade-1 {
+    background-color: var(--secondary-2);
+}
+
+.color-rectangle.secondary-shade-2 {
+    background-color: var(--secondary-3);
+}

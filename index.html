@@ -1,0 +1,272 @@
+HTML : 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Classy UI System by Woody</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <main class="container mt-3">
+      <header class="row">
+        <div class="col">
+          <h1>UI Design System</h1>
+          <h2>by Woody</h2>
+          <p>This design system was created using Bootstrap 5.</p>
+        </div>
+      </header>
+
+      <section class="row mt-3">
+        <div class="col-12">
+          <h2>Typography</h2>
+          <div>
+            <h2 class="mb-3">H1-Heading</h2>
+            <h3 class="mb-3">H2-Subheading</h3>
+            <h4 class="mb-3">H3-Title</h4>
+            <p class="mb-3">P-Body</p>
+          </div>
+        </div>
+      </section>
+      <section class="row mt-3">
+        <div class="col-12">
+          <h2>Colors:</h2>
+        </div>
+        <!-- Primary color rectangles -->
+        <div class="col-4">
+          <div class="color-rectangle primary-color"></div>
+          <p class="label">Primary Color</p>
+        </div>
+        <div class="col-4">
+          <div class="color-rectangle primary-shade-1"></div>
+          <p class="label">Primary Shade 01</p>
+        </div>
+        <div class="col-4">
+          <div class="color-rectangle primary-shade-2"></div>
+          <p class="label">Primary Shade 02</p>
+        </div>
+        <!-- Secondary color rectangles -->
+        <div class="col-4">
+          <div class="color-rectangle secondary-color"></div>
+          <p class="label">Secondary Color</p>
+        </div>
+        <div class="col-4">
+          <div class="color-rectangle secondary-shade-1"></div>
+          <p class="label">Secondary Shade 01</p>
+        </div>
+        <div class="col-4">
+          <div class="color-rectangle secondary-shade-2"></div>
+          <p class="label">Secondary Shade 02</p>
+        </div>
+      </section>
+
+      <!-- Button styles section -->
+      <section class="row mt-3">
+        <div class="col-12">
+          <h2>Button Styles:</h2>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-primary btn-sm">
+            Small button
+          </button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-primary">Medium button</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-primary btn-lg">
+            Large button
+          </button>
+        </div>
+      </section>
+      <section class="row mt-3">
+        <div class="col-12">
+          <hr />
+          <h2>Card Styles:</h2>
+        </div>
+
+        <!-- First Card -->
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">View More</a>
+          </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">View More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h2>Alerts:</h2>
+      <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+      </div>
+      <div class="alert alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+      </div>
+      <div class="alert alert-success" role="alert">
+        A simple success alert—check it out!
+      </div>
+      <div class="alert alert-danger" role="alert">
+        A simple danger alert—check it out!
+      </div>
+      <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+      </div>
+
+      <h2>Carousel:</h2>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1606228281437-dc226988dc3a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1584009577996-0227b2358356?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        </button>
+      </div>
+
+      <h2>Navbar:</h2>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </main>
+  </body>
+</html>
